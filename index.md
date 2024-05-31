@@ -7,7 +7,7 @@ hero:
   text: '一个vue3项目模版'
   tagline: 好好学习，卷死同行
   image:
-    src: '/public/logo.svg'
+    src: './logo.svg'
     alt: '欢迎'
   actions:
     - theme: brand
