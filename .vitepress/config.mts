@@ -3,11 +3,11 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/x-template-doc/',
-  head:[['link', { rel: 'icon', href: '/public/logo.svg'}]],
+  head:[['link', { rel: 'icon', href: './public/logo.svg'}]],
   title: "x-template",
   description: "A VitePress Site",
   themeConfig: {
-    logo: '../public/logo.svg',
+    logo: '/public/logo.svg',
     outlineTitle:'目录',
     
     // https://vitepress.dev/reference/default-theme-config
