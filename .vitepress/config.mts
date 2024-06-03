@@ -27,7 +27,8 @@ export default defineConfig({
         text: '组件',
         items: [
           { text: 'x-form', link: '/components/x-form' },
-          { text: 'x-table', link: '/components/x-table' }
+          { text: 'x-table', link: '/components/x-table' },
+          { text: 'edit-table', link: '/components/edit-table' }
         ]
       }
     ],
